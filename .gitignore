@@ -1,0 +1,18 @@
+# Ignorar binarios y archivos generados por Go
+*.exe
+*.out
+*.test
+
+# Ignorar archivo de entorno
+.env
+
+# Ignorar archivos de log
+*.log
+
+# Ignorar carpetas de IDE
+.idea/
+.vscode/
+
+# Ignorar archivos de compilación temporal
+build/
+dist/
