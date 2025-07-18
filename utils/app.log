@@ -1,0 +1,257 @@
+1,registro,2025-07-16T10:14:17-06:00,exitoso,Usuario creado con rol Paciente
+1,login,2025-07-16T10:30:16-06:00,exitoso,Inicio de sesión correcto
+2,registro,2025-07-16T11:18:39-06:00,exitoso,Usuario creado con rol Medico
+2,login,2025-07-16T11:22:01-06:00,fallido,Contraseña incorrecta
+2,login,2025-07-16T11:22:20-06:00,fallido,Contraseña incorrecta
+2,login,2025-07-16T11:24:11-06:00,exitoso,Contraseña correcta
+2,login,2025-07-16T11:24:11-06:00,exitoso,Inicio de sesión correcto
+0,registro,2025-07-16T11:34:19-06:00,fallido,Error al guardar usuario para correo: tania@example.com
+0,registro,2025-07-16T11:34:43-06:00,fallido,Error al guardar usuario para correo: tania@example.com
+0,login,2025-07-16T11:35:19-06:00,fallido,Correo no encontrado: ariadna@example.com
+3,create_user,2025-07-16T12:06:46-06:00,exitoso,Usuario creado con ID 3
+3,create_medico,2025-07-16T12:06:46-06:00,exitoso,Datos de medico creados para usuario 3
+3,login,2025-07-16T12:09:08-06:00,fallido,Contraseña incorrecta para karla.valle@example.com
+3,login,2025-07-16T12:09:59-06:00,fallido,Contraseña incorrecta para karla.valle@example.com
+3,login,2025-07-16T12:13:06-06:00,fallido,Contraseña incorrecta para karla.valle@example.com
+3,login,2025-07-16T12:13:50-06:00,fallido,Contraseña incorrecta para karla.valle@example.com
+3,login,2025-07-16T12:14:21-06:00,exitoso,Contraseña validada para karla.valle@example.com
+3,login,2025-07-16T12:14:21-06:00,fallido,Código TOTP inválido para karla.valle@example.com
+3,login,2025-07-16T12:14:47-06:00,exitoso,Contraseña validada para karla.valle@example.com
+3,login,2025-07-16T12:14:47-06:00,exitoso,Código TOTP validado para karla.valle@example.com
+3,login,2025-07-16T12:14:47-06:00,exitoso,Inicio de sesión exitoso para karla.valle@example.com
+4,create_user,2025-07-16T12:43:32-06:00,exitoso,Usuario creado con ID 4
+4,create_paciente,2025-07-16T12:43:32-06:00,exitoso,Datos de paciente creados para usuario 4
+5,create_user,2025-07-16T12:44:19-06:00,exitoso,Usuario creado con ID 5
+5,create_medico,2025-07-16T12:44:19-06:00,exitoso,Datos de medico creados para usuario 5
+6,create_user,2025-07-16T12:47:08-06:00,exitoso,Usuario creado con ID 6
+6,create_paciente,2025-07-16T12:47:08-06:00,exitoso,Datos de paciente creados para usuario 6
+0,create_user,2025-07-16T12:48:53-06:00,fallido,Contraseña débil: La contraseña debe tener al menos 12 caracteres
+0,create_user,2025-07-16T12:48:59-06:00,fallido,Contraseña débil: La contraseña debe tener al menos 12 caracteres
+0,create_user,2025-07-16T12:49:05-06:00,fallido,Contraseña débil: La contraseña debe tener al menos 12 caracteres
+6,login,2025-07-16T12:50:24-06:00,exitoso,Contraseña validada para luis.perez@example.com
+6,login,2025-07-16T12:50:24-06:00,exitoso,Código TOTP validado para luis.perez@example.com
+6,login,2025-07-16T12:50:24-06:00,exitoso,Inicio de sesión exitoso para luis.perez@example.com
+6,login,2025-07-16T12:50:34-06:00,exitoso,Contraseña validada para luis.perez@example.com
+6,login,2025-07-16T12:50:34-06:00,exitoso,Código TOTP validado para luis.perez@example.com
+6,login,2025-07-16T12:50:34-06:00,exitoso,Inicio de sesión exitoso para luis.perez@example.com
+6,login,2025-07-16T12:50:42-06:00,exitoso,Contraseña validada para luis.perez@example.com
+6,login,2025-07-16T12:50:42-06:00,fallido,Código TOTP inválido para luis.perez@example.com
+6,login,2025-07-16T12:50:55-06:00,exitoso,Contraseña validada para luis.perez@example.com
+6,login,2025-07-16T12:50:57-06:00,exitoso,Código TOTP validado para luis.perez@example.com
+6,login,2025-07-16T12:51:00-06:00,exitoso,Inicio de sesión exitoso para luis.perez@example.com
+0,login,2025-07-16T13:09:23-06:00,fallido,Correo no encontrado o error en consulta: ERROR: prepared statement "lrupsc_1_0" already exists (SQLSTATE 42P05)
+0,login,2025-07-16T13:09:37-06:00,fallido,Correo no encontrado o error en consulta: ERROR: prepared statement "lrupsc_1_1" already exists (SQLSTATE 42P05)
+0,login,2025-07-16T13:10:23-06:00,fallido,Correo no encontrado o error en consulta: ERROR: prepared statement "lrupsc_1_2" already exists (SQLSTATE 42P05)
+0,login,2025-07-16T13:10:34-06:00,fallido,Correo no encontrado o error en consulta: ERROR: prepared statement "lrupsc_1_3" already exists (SQLSTATE 42P05)
+4,login,2025-07-16T13:10:58-06:00,exitoso,Contraseña validada para ana.garcia@example.com
+4,login,2025-07-16T13:10:58-06:00,fallido,Código TOTP inválido para ana.garcia@example.com
+4,login,2025-07-16T13:11:13-06:00,exitoso,Contraseña validada para ana.garcia@example.com
+4,login,2025-07-16T13:11:13-06:00,exitoso,Código TOTP validado para ana.garcia@example.com
+4,login,2025-07-16T13:11:13-06:00,exitoso,Inicio de sesión exitoso para ana.garcia@example.com
+6,login,2025-07-16T13:22:20-06:00,exitoso,Contraseña validada para luis.perez@example.com
+6,login,2025-07-16T13:22:20-06:00,exitoso,Código TOTP validado para luis.perez@example.com
+6,login,2025-07-16T13:22:20-06:00,exitoso,Inicio de sesión exitoso para luis.perez@example.com
+6,create_appointment,2025-07-16T13:22:51-06:00,fallido,Error al crear cita: ERROR: column "id_paciente" of relation "citas" does not exist (SQLSTATE 42703)
+6,login,2025-07-16T13:27:29-06:00,exitoso,Contraseña validada para luis.perez@example.com
+6,login,2025-07-16T13:27:29-06:00,exitoso,Código TOTP validado para luis.perez@example.com
+6,login,2025-07-16T13:27:29-06:00,exitoso,Inicio de sesión exitoso para luis.perez@example.com
+6,create_appointment,2025-07-16T13:27:41-06:00,fallido,Error al crear cita: ERROR: column "id_paciente" of relation "citas" does not exist (SQLSTATE 42703)
+0,login,2025-07-16T13:33:07-06:00,fallido,Correo no encontrado o error en consulta: ERROR: prepared statement "lrupsc_1_0" already exists (SQLSTATE 42P05)
+6,login,2025-07-16T13:34:02-06:00,exitoso,Contraseña validada para luis.perez@example.com
+6,login,2025-07-16T13:34:02-06:00,fallido,Código TOTP inválido para luis.perez@example.com
+6,login,2025-07-16T13:34:06-06:00,exitoso,Contraseña validada para luis.perez@example.com
+6,login,2025-07-16T13:34:06-06:00,fallido,Código TOTP inválido para luis.perez@example.com
+6,login,2025-07-16T13:34:21-06:00,exitoso,Contraseña validada para luis.perez@example.com
+6,login,2025-07-16T13:34:21-06:00,exitoso,Código TOTP validado para luis.perez@example.com
+6,login,2025-07-16T13:34:21-06:00,exitoso,Inicio de sesión exitoso para luis.perez@example.com
+6,create_appointment,2025-07-16T13:34:41-06:00,fallido,Error al crear cita: ERROR: null value in column "id_paciente" of relation "citas" violates not-null constraint (SQLSTATE 23502)
+6,login,2025-07-16T13:42:44-06:00,exitoso,Contraseña validada para luis.perez@example.com
+6,login,2025-07-16T13:42:44-06:00,fallido,Código TOTP inválido para luis.perez@example.com
+6,login,2025-07-16T13:42:55-06:00,exitoso,Contraseña validada para luis.perez@example.com
+6,login,2025-07-16T13:42:55-06:00,exitoso,Código TOTP validado para luis.perez@example.com
+6,login,2025-07-16T13:42:55-06:00,exitoso,Inicio de sesión exitoso para luis.perez@example.com
+6,create_appointment,2025-07-16T13:43:10-06:00,fallido,Error al crear cita: ERROR: column "id_paciente" of relation "citas" does not exist (SQLSTATE 42703)
+6,create_appointment,2025-07-16T13:44:25-06:00,fallido,Error al crear cita: ERROR: column "paciente_id" of relation "citas" does not exist (SQLSTATE 42703)
+6,create_appointment,2025-07-16T13:46:35-06:00,fallido,Error al crear cita: ERROR: prepared statement "lrupsc_1_0" already exists (SQLSTATE 42P05)
+6,login,2025-07-16T13:55:06-06:00,exitoso,Contraseña validada para luis.perez@example.com
+6,login,2025-07-16T13:55:06-06:00,fallido,Código TOTP inválido para luis.perez@example.com
+6,login,2025-07-16T13:55:17-06:00,exitoso,Contraseña validada para luis.perez@example.com
+6,login,2025-07-16T13:55:17-06:00,exitoso,Código TOTP validado para luis.perez@example.com
+6,login,2025-07-16T13:55:17-06:00,exitoso,Inicio de sesión exitoso para luis.perez@example.com
+6,create_appointment,2025-07-16T13:55:29-06:00,fallido,Error al crear cita: ERROR: null value in column "fecha_hora" of relation "citas" violates not-null constraint (SQLSTATE 23502)
+6,create_appointment,2025-07-16T13:57:23-06:00,fallido,Error al crear cita: ERROR: prepared statement "lrupsc_1_0" already exists (SQLSTATE 42P05)
+0,login,2025-07-16T13:58:15-06:00,fallido,Correo no encontrado o error en consulta: ERROR: prepared statement "lrupsc_1_1" already exists (SQLSTATE 42P05)
+6,login,2025-07-16T13:58:23-06:00,exitoso,Contraseña validada para luis.perez@example.com
+6,login,2025-07-16T13:58:23-06:00,exitoso,Código TOTP validado para luis.perez@example.com
+6,login,2025-07-16T13:58:23-06:00,exitoso,Inicio de sesión exitoso para luis.perez@example.com
+6,create_appointment,2025-07-16T13:58:37-06:00,fallido,Error al crear cita: ERROR: null value in column "fecha" of relation "citas" violates not-null constraint (SQLSTATE 23502)
+6,create_appointment,2025-07-16T13:58:47-06:00,fallido,Error al crear cita: ERROR: invalid input syntax for type timestamp: "" (SQLSTATE 22007)
+6,create_appointment,2025-07-16T14:04:53-06:00,fallido,Fecha vacía
+6,create_appointment,2025-07-16T14:05:44-06:00,fallido,Error al crear cita: ERROR: prepared statement "lrupsc_1_0" already exists (SQLSTATE 42P05)
+6,create_appointment,2025-07-16T14:05:54-06:00,fallido,Fecha vacía
+6,create_appointment,2025-07-16T14:07:23-06:00,fallido,Error al crear cita: ERROR: prepared statement "lrupsc_1_0" already exists (SQLSTATE 42P05)
+0,login,2025-07-16T14:07:51-06:00,fallido,Correo no encontrado o error en consulta: ERROR: prepared statement "lrupsc_1_1" already exists (SQLSTATE 42P05)
+0,login,2025-07-16T14:07:57-06:00,fallido,Correo no encontrado o error en consulta: ERROR: prepared statement "lrupsc_1_2" already exists (SQLSTATE 42P05)
+0,login,2025-07-16T14:08:07-06:00,fallido,Correo no encontrado o error en consulta: ERROR: prepared statement "lrupsc_1_3" already exists (SQLSTATE 42P05)
+6,login,2025-07-16T14:08:48-06:00,exitoso,Contraseña validada para luis.perez@example.com
+6,login,2025-07-16T14:08:48-06:00,fallido,Código TOTP inválido para luis.perez@example.com
+6,login,2025-07-16T14:08:58-06:00,exitoso,Contraseña validada para luis.perez@example.com
+6,login,2025-07-16T14:08:58-06:00,exitoso,Código TOTP validado para luis.perez@example.com
+6,login,2025-07-16T14:08:58-06:00,exitoso,Inicio de sesión exitoso para luis.perez@example.com
+6,create_appointment,2025-07-16T14:09:11-06:00,fallido,Error al crear cita: ERROR: null value in column "fecha" of relation "citas" violates not-null constraint (SQLSTATE 23502)
+6,create_appointment,2025-07-16T14:10:20-06:00,fallido,Error al crear cita: ERROR: insert or update on table "citas" violates foreign key constraint "citas_id_paciente_fkey" (SQLSTATE 23503)
+6,create_appointment,2025-07-16T14:13:49-06:00,fallido,Error al crear cita: ERROR: insert or update on table "citas" violates foreign key constraint "citas_id_paciente_fkey" (SQLSTATE 23503)
+6,create_appointment,2025-07-16T14:17:12-06:00,fallido,Formato de fecha inválido: parsing time "2025-07-16 14:30:00" as "2006-01-02T15:04:05Z07:00": cannot parse " 14:30:00" as "T"
+6,create_appointment,2025-07-16T14:18:01-06:00,fallido,Error al crear cita: ERROR: insert or update on table "citas" violates foreign key constraint "citas_id_paciente_fkey" (SQLSTATE 23503)
+6,login,2025-07-16T14:20:11-06:00,exitoso,Contraseña validada para luis.perez@example.com
+6,login,2025-07-16T14:20:11-06:00,fallido,Código TOTP inválido para luis.perez@example.com
+6,login,2025-07-16T14:20:21-06:00,exitoso,Contraseña validada para luis.perez@example.com
+6,login,2025-07-16T14:20:21-06:00,exitoso,Código TOTP validado para luis.perez@example.com
+6,login,2025-07-16T14:20:21-06:00,exitoso,Inicio de sesión exitoso para luis.perez@example.com
+6,create_appointment,2025-07-16T14:20:34-06:00,fallido,Error al crear cita: ERROR: insert or update on table "citas" violates foreign key constraint "citas_id_paciente_fkey" (SQLSTATE 23503)
+6,login,2025-07-16T14:24:20-06:00,exitoso,Contraseña validada para luis.perez@example.com
+6,login,2025-07-16T14:24:20-06:00,fallido,Código TOTP inválido para luis.perez@example.com
+6,login,2025-07-16T14:24:31-06:00,exitoso,Contraseña validada para luis.perez@example.com
+6,login,2025-07-16T14:24:31-06:00,exitoso,Código TOTP validado para luis.perez@example.com
+6,login,2025-07-16T14:24:31-06:00,exitoso,Inicio de sesión exitoso para luis.perez@example.com
+6,create_appointment,2025-07-16T14:24:41-06:00,fallido,Error al crear cita: ERROR: insert or update on table "citas" violates foreign key constraint "citas_id_paciente_fkey" (SQLSTATE 23503)
+6,create_appointment,2025-07-16T14:32:29-06:00,fallido,Error al crear cita: ERROR: insert or update on table "citas" violates foreign key constraint "citas_id_paciente_fkey" (SQLSTATE 23503)
+6,login,2025-07-16T14:32:38-06:00,exitoso,Contraseña validada para luis.perez@example.com
+6,login,2025-07-16T14:32:38-06:00,fallido,Código TOTP inválido para luis.perez@example.com
+6,login,2025-07-16T14:32:47-06:00,exitoso,Contraseña validada para luis.perez@example.com
+6,login,2025-07-16T14:32:47-06:00,exitoso,Código TOTP validado para luis.perez@example.com
+6,login,2025-07-16T14:32:47-06:00,exitoso,Inicio de sesión exitoso para luis.perez@example.com
+6,create_appointment,2025-07-16T14:33:01-06:00,fallido,Error al crear cita: ERROR: insert or update on table "citas" violates foreign key constraint "citas_id_paciente_fkey" (SQLSTATE 23503)
+6,create_appointment,2025-07-16T14:36:00-06:00,fallido,Error al crear cita: ERROR: prepared statement "lrupsc_1_0" already exists (SQLSTATE 42P05)
+0,login,2025-07-16T14:36:10-06:00,fallido,Correo no encontrado o error en consulta: ERROR: prepared statement "lrupsc_1_1" already exists (SQLSTATE 42P05)
+0,login,2025-07-16T14:36:22-06:00,fallido,Correo no encontrado o error en consulta: ERROR: prepared statement "lrupsc_1_2" already exists (SQLSTATE 42P05)
+0,login,2025-07-16T14:36:28-06:00,fallido,Correo no encontrado o error en consulta: ERROR: prepared statement "lrupsc_1_3" already exists (SQLSTATE 42P05)
+0,login,2025-07-16T14:36:36-06:00,fallido,Correo no encontrado o error en consulta: ERROR: prepared statement "lrupsc_1_4" already exists (SQLSTATE 42P05)
+0,login,2025-07-16T14:37:06-06:00,fallido,Correo no encontrado o error en consulta: ERROR: prepared statement "lrupsc_1_5" already exists (SQLSTATE 42P05)
+6,login,2025-07-16T14:37:10-06:00,exitoso,Contraseña validada para luis.perez@example.com
+6,login,2025-07-16T14:37:10-06:00,fallido,Código TOTP inválido para luis.perez@example.com
+6,login,2025-07-16T14:37:21-06:00,exitoso,Contraseña validada para luis.perez@example.com
+6,login,2025-07-16T14:37:21-06:00,exitoso,Código TOTP validado para luis.perez@example.com
+6,login,2025-07-16T14:37:21-06:00,exitoso,Inicio de sesión exitoso para luis.perez@example.com
+6,create_appointment,2025-07-16T14:37:38-06:00,fallido,Error al crear cita: ERROR: insert or update on table "citas" violates foreign key constraint "citas_id_paciente_fkey" (SQLSTATE 23503)
+6,login,2025-07-16T14:45:01-06:00,exitoso,Contraseña validada para luis.perez@example.com
+6,login,2025-07-16T14:45:01-06:00,fallido,Código TOTP inválido para luis.perez@example.com
+6,login,2025-07-16T14:45:12-06:00,exitoso,Contraseña validada para luis.perez@example.com
+6,login,2025-07-16T14:45:12-06:00,exitoso,Código TOTP validado para luis.perez@example.com
+6,login,2025-07-16T14:45:12-06:00,exitoso,Inicio de sesión exitoso para luis.perez@example.com
+6,create_appointment,2025-07-16T14:45:26-06:00,fallido,Error al crear cita: ERROR: insert or update on table "citas" violates foreign key constraint "citas_id_paciente_fkey" (SQLSTATE 23503)
+6,login,2025-07-16T15:34:28-06:00,exitoso,Contraseña validada para luis.perez@example.com
+6,login,2025-07-16T15:34:28-06:00,exitoso,Código TOTP validado para luis.perez@example.com
+6,login,2025-07-16T15:34:28-06:00,exitoso,Inicio de sesión exitoso para luis.perez@example.com
+6,create_appointment,2025-07-16T15:34:39-06:00,fallido,Error al crear cita: ERROR: insert or update on table "citas" violates foreign key constraint "citas_id_paciente_fkey" (SQLSTATE 23503)
+6,login,2025-07-16T15:48:22-06:00,exitoso,Contraseña validada para luis.perez@example.com
+6,login,2025-07-16T15:48:22-06:00,fallido,Código TOTP inválido para luis.perez@example.com
+6,login,2025-07-16T15:48:38-06:00,exitoso,Contraseña validada para luis.perez@example.com
+6,login,2025-07-16T15:48:38-06:00,exitoso,Código TOTP validado para luis.perez@example.com
+6,login,2025-07-16T15:48:38-06:00,exitoso,Inicio de sesión exitoso para luis.perez@example.com
+6,create_appointment,2025-07-16T15:48:50-06:00,fallido,Error al crear cita: ERROR: insert or update on table "citas" violates foreign key constraint "citas_id_paciente_fkey" (SQLSTATE 23503)
+1,create_user,2025-07-16T22:26:59-06:00,exitoso,Usuario creado con ID 1
+1,create_paciente,2025-07-16T22:26:59-06:00,exitoso,Datos de paciente creados para usuario 1
+1,login,2025-07-16T22:29:29-06:00,exitoso,Contraseña validada para ana.garcia@example.com
+1,login,2025-07-16T22:29:29-06:00,exitoso,Código TOTP validado para ana.garcia@example.com
+1,login,2025-07-16T22:29:29-06:00,exitoso,Inicio de sesión exitoso para ana.garcia@example.com
+1,login,2025-07-16T22:29:52-06:00,exitoso,Contraseña validada para ana.garcia@example.com
+1,login,2025-07-16T22:29:52-06:00,exitoso,Código TOTP validado para ana.garcia@example.com
+1,login,2025-07-16T22:29:52-06:00,exitoso,Inicio de sesión exitoso para ana.garcia@example.com
+1,create_expediente,2025-07-16T22:32:06-06:00,exitoso,Expediente creado para paciente ID 1
+1,read_expediente,2025-07-16T22:33:02-06:00,fallido,Error al obtener expediente: can't scan into dest[4]: unable to assign to *string
+1,login,2025-07-16T22:33:21-06:00,exitoso,Contraseña validada para ana.garcia@example.com
+1,login,2025-07-16T22:33:21-06:00,fallido,Código TOTP inválido para ana.garcia@example.com
+1,login,2025-07-16T22:33:30-06:00,exitoso,Contraseña validada para ana.garcia@example.com
+1,login,2025-07-16T22:33:30-06:00,exitoso,Código TOTP validado para ana.garcia@example.com
+1,login,2025-07-16T22:33:30-06:00,exitoso,Inicio de sesión exitoso para ana.garcia@example.com
+1,read_expediente,2025-07-16T22:33:59-06:00,fallido,Error al obtener expediente: can't scan into dest[4]: unable to assign to *string
+1,read_expediente,2025-07-16T22:34:33-06:00,fallido,Error al obtener expediente: can't scan into dest[4]: unable to assign to *string
+1,update_expediente,2025-07-16T22:36:12-06:00,exitoso,Expediente actualizado para paciente ID 1
+1,read_expediente,2025-07-16T22:36:37-06:00,fallido,Error al obtener expediente: can't scan into dest[4]: unable to assign to *string
+1,delete_expediente,2025-07-16T22:38:01-06:00,exitoso,Expediente eliminado para paciente ID 1
+2,create_user,2025-07-16T22:42:52-06:00,exitoso,Usuario creado con ID 2
+2,create_medico,2025-07-16T22:42:53-06:00,exitoso,Datos de medico creados para usuario 2
+2,login,2025-07-16T22:43:32-06:00,exitoso,Contraseña validada para juan.perez@example.com
+2,login,2025-07-16T22:43:32-06:00,fallido,Código TOTP inválido para juan.perez@example.com
+2,login,2025-07-16T22:43:42-06:00,exitoso,Contraseña validada para juan.perez@example.com
+2,login,2025-07-16T22:43:42-06:00,exitoso,Código TOTP validado para juan.perez@example.com
+2,login,2025-07-16T22:43:42-06:00,exitoso,Inicio de sesión exitoso para juan.perez@example.com
+2,create_expediente,2025-07-16T22:45:30-06:00,fallido,Permiso denegado: Solo Pacientes pueden crear expedientes
+1,login,2025-07-16T22:46:44-06:00,exitoso,Contraseña validada para ana.garcia@example.com
+1,login,2025-07-16T22:46:44-06:00,exitoso,Código TOTP validado para ana.garcia@example.com
+1,login,2025-07-16T22:46:44-06:00,exitoso,Inicio de sesión exitoso para ana.garcia@example.com
+2,login,2025-07-16T22:48:07-06:00,exitoso,Contraseña validada para juan.perez@example.com
+2,login,2025-07-16T22:48:07-06:00,exitoso,Código TOTP validado para juan.perez@example.com
+2,login,2025-07-16T22:48:07-06:00,exitoso,Inicio de sesión exitoso para juan.perez@example.com
+0,login,2025-07-16T22:57:46-06:00,fallido,Correo no encontrado o error en consulta: write failed: write tcp 192.168.100.54:35655->3.139.14.59:6543: wsasend: An existing connection was forcibly closed by the remote host.
+2,login,2025-07-16T22:58:00-06:00,exitoso,Contraseña validada para juan.perez@example.com
+2,login,2025-07-16T22:58:00-06:00,exitoso,Código TOTP validado para juan.perez@example.com
+2,login,2025-07-16T22:58:00-06:00,exitoso,Inicio de sesión exitoso para juan.perez@example.com
+1,login,2025-07-16T22:59:22-06:00,exitoso,Contraseña validada para ana.garcia@example.com
+1,login,2025-07-16T22:59:22-06:00,exitoso,Código TOTP validado para ana.garcia@example.com
+1,login,2025-07-16T22:59:22-06:00,exitoso,Inicio de sesión exitoso para ana.garcia@example.com
+2,login,2025-07-16T22:59:50-06:00,exitoso,Contraseña validada para juan.perez@example.com
+2,login,2025-07-16T22:59:50-06:00,exitoso,Código TOTP validado para juan.perez@example.com
+2,login,2025-07-16T22:59:50-06:00,exitoso,Inicio de sesión exitoso para juan.perez@example.com
+1,login,2025-07-16T23:03:02-06:00,exitoso,Contraseña validada para ana.garcia@example.com
+1,login,2025-07-16T23:03:02-06:00,exitoso,Código TOTP validado para ana.garcia@example.com
+1,login,2025-07-16T23:03:02-06:00,exitoso,Inicio de sesión exitoso para ana.garcia@example.com
+2,login,2025-07-16T23:03:30-06:00,exitoso,Contraseña validada para juan.perez@example.com
+2,login,2025-07-16T23:03:30-06:00,exitoso,Código TOTP validado para juan.perez@example.com
+2,login,2025-07-16T23:03:30-06:00,exitoso,Inicio de sesión exitoso para juan.perez@example.com
+1,create_expediente,2025-07-16T23:03:53-06:00,exitoso,Expediente creado para paciente ID 1
+1,read_expediente,2025-07-16T23:05:02-06:00,fallido,Error al obtener expediente: can't scan into dest[4]: unable to assign to *string
+1,update_expediente,2025-07-16T23:06:44-06:00,fallido,JSON inválido: unexpected end of JSON input
+1,update_expediente,2025-07-16T23:06:57-06:00,exitoso,Expediente actualizado para paciente ID 1
+1,delete_expediente,2025-07-16T23:07:37-06:00,exitoso,Expediente eliminado para paciente ID 1
+2,login,2025-07-16T23:08:58-06:00,exitoso,Contraseña validada para juan.perez@example.com
+2,login,2025-07-16T23:08:58-06:00,fallido,Código TOTP inválido para juan.perez@example.com
+2,login,2025-07-16T23:09:07-06:00,exitoso,Contraseña validada para juan.perez@example.com
+2,login,2025-07-16T23:09:07-06:00,exitoso,Código TOTP validado para juan.perez@example.com
+2,login,2025-07-16T23:09:07-06:00,exitoso,Inicio de sesión exitoso para juan.perez@example.com
+2,create_consultorio,2025-07-16T23:10:00-06:00,fallido,Error al crear consultorio: ERROR: null value in column "id_consultorio" of relation "consultorios" violates not-null constraint (SQLSTATE 23502)
+2,login,2025-07-16T23:18:47-06:00,exitoso,Contraseña validada para juan.perez@example.com
+2,login,2025-07-16T23:18:47-06:00,exitoso,Código TOTP validado para juan.perez@example.com
+2,login,2025-07-16T23:18:47-06:00,exitoso,Inicio de sesión exitoso para juan.perez@example.com
+2,create_consultorio,2025-07-16T23:19:33-06:00,fallido,Error al crear consultorio: ERROR: null value in column "id_consultorio" of relation "consultorios" violates not-null constraint (SQLSTATE 23502)
+2,create_consultorio,2025-07-16T23:19:50-06:00,fallido,Error al crear consultorio: ERROR: null value in column "id_consultorio" of relation "consultorios" violates not-null constraint (SQLSTATE 23502)
+2,login,2025-07-16T23:30:11-06:00,exitoso,Contraseña validada para juan.perez@example.com
+2,login,2025-07-16T23:30:11-06:00,exitoso,Código TOTP validado para juan.perez@example.com
+2,login,2025-07-16T23:30:11-06:00,exitoso,Inicio de sesión exitoso para juan.perez@example.com
+2,create_consultorio,2025-07-16T23:30:59-06:00,exitoso,Consultorio creado: ID 2
+2,update_consultorio,2025-07-16T23:33:23-06:00,fallido,Consultorio no encontrado: ID 1
+2,update_consultorio,2025-07-16T23:34:06-06:00,exitoso,Consultorio actualizado: ID 2
+2,delete_consultorio,2025-07-16T23:35:56-06:00,exitoso,Consultorio eliminado: ID 2
+2,login,2025-07-16T23:37:43-06:00,exitoso,Contraseña validada para juan.perez@example.com
+2,login,2025-07-16T23:37:43-06:00,exitoso,Código TOTP validado para juan.perez@example.com
+2,login,2025-07-16T23:37:43-06:00,exitoso,Inicio de sesión exitoso para juan.perez@example.com
+2,create_horario,2025-07-16T23:38:22-06:00,fallido,Error al crear horario: ERROR: null value in column "id_horario" of relation "horarios" violates not-null constraint (SQLSTATE 23502)
+2,create_horario,2025-07-16T23:40:22-06:00,fallido,Error al crear horario: ERROR: insert or update on table "horarios" violates foreign key constraint "horarios_id_consultorio_fkey" (SQLSTATE 23503)
+2,create_horario,2025-07-16T23:43:06-06:00,fallido,Error al crear horario: ERROR: insert or update on table "horarios" violates foreign key constraint "horarios_id_consultorio_fkey" (SQLSTATE 23503)
+2,login,2025-07-16T23:44:06-06:00,exitoso,Contraseña validada para juan.perez@example.com
+2,login,2025-07-16T23:44:06-06:00,exitoso,Código TOTP validado para juan.perez@example.com
+2,login,2025-07-16T23:44:06-06:00,exitoso,Inicio de sesión exitoso para juan.perez@example.com
+2,create_horario,2025-07-16T23:44:30-06:00,fallido,Error al crear horario: ERROR: insert or update on table "horarios" violates foreign key constraint "horarios_id_consultorio_fkey" (SQLSTATE 23503)
+2,create_horario,2025-07-16T23:46:28-06:00,fallido,Error al crear horario: ERROR: invalid input syntax for type time: "" (SQLSTATE 22007)
+2,create_consultorio,2025-07-16T23:46:42-06:00,exitoso,Consultorio creado: ID 3
+2,create_horario,2025-07-16T23:47:02-06:00,exitoso,Horario creado para medico ID 1
+2,read_horario,2025-07-16T23:47:49-06:00,fallido,Error al leer horario: can't scan into dest[3]: unable to assign to *string
+2,read_horario,2025-07-16T23:48:11-06:00,fallido,Error al leer horario: can't scan into dest[3]: unable to assign to *string
+2,update_horario,2025-07-16T23:49:50-06:00,fallido,Horario no encontrado: ID 1
+2,update_horario,2025-07-16T23:50:13-06:00,exitoso,Horario actualizado: ID 5
+1,login,2025-07-16T23:53:51-06:00,exitoso,Contraseña validada para ana.garcia@example.com
+1,login,2025-07-16T23:53:51-06:00,exitoso,Código TOTP validado para ana.garcia@example.com
+1,login,2025-07-16T23:53:51-06:00,exitoso,Inicio de sesión exitoso para ana.garcia@example.com
+2,login,2025-07-16T23:54:03-06:00,exitoso,Contraseña validada para juan.perez@example.com
+2,login,2025-07-16T23:54:03-06:00,exitoso,Código TOTP validado para juan.perez@example.com
+2,login,2025-07-16T23:54:03-06:00,exitoso,Inicio de sesión exitoso para juan.perez@example.com
+2,login,2025-07-17T00:03:30-06:00,exitoso,Contraseña validada para juan.perez@example.com
+2,login,2025-07-17T00:03:30-06:00,exitoso,Código TOTP validado para juan.perez@example.com
+2,login,2025-07-17T00:03:30-06:00,exitoso,Inicio de sesión exitoso para juan.perez@example.com
+2,read_consultorio,2025-07-17T00:03:48-06:00,fallido,Error al leer consultorio: can't scan into dest[4]: unable to assign to *string
+2,read_consultorio,2025-07-17T00:08:47-06:00,fallido,Médico no encontrado: ERROR: prepared statement "lrupsc_1_0" already exists (SQLSTATE 42P05)
+1,login,2025-07-17T19:57:45-06:00,exitoso,Contraseña validada para ana.garcia@example.com
+1,login,2025-07-17T19:57:45-06:00,exitoso,Código TOTP validado para ana.garcia@example.com
+1,login,2025-07-17T19:57:45-06:00,exitoso,Inicio de sesión exitoso para ana.garcia@example.com
+1,refresh_token,2025-07-17T20:00:18-06:00,exitoso,Token renovado
